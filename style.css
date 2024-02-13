@@ -1,0 +1,86 @@
+/*
+Theme Name: DWWM team1 theme
+Description: Theme team 1
+*/
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+header img{
+    max-width: 250px;
+}
+a:hover{
+    color: #666;
+}
+ul{
+    list-style: none;
+}
+i{
+    width: 100%;
+    height: 100%;
+}
+.formation img{
+    height: 600px;
+}
+.card{
+height : 450px
+}
+.card img{
+width: 400px;
+height: auto;
+}
+.hero-banner{
+    background-image: url(https://greta.1.lopia.fr/wp-content/uploads/2024/02/hero-banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: auto;
+}
+.actualite img{
+    height: 400px;
+}
+footer{
+    background-color: #666;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
+footer a :hover{
+    color: #000;
+}
+@media (max-width : 450px){
+
+    .hero-banner{
+        height: 350px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+    }
+    .formation img{
+        height: 200px;
+    }
+    .formation{
+	font-size : 10px;
+    }
+    .formation h2{
+	font-size : 20px;
+    }
+    .actualite{
+        font-size: 10px;
+    }
+    .actualite img{
+        height: 200px;
+    }
+    .card img{
+	width : 100%;
+	height: auto;
+    }
+    .carte img{
+	width : 100%;
+	height: auto;
+}
+}
